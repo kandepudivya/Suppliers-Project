@@ -1,0 +1,64 @@
+.Titleimage{
+	float: left;
+	margin-right:20px;
+}
+.Imagediv{
+	min-height: 180px;
+}
+  fieldset 
+{
+	border-top: 1px dashed grey !important;
+	margin: 0;
+	xmin-width: 0;
+	padding: 10px;       
+	position: relative;
+	border-radius:4px;
+	padding-left:40px!important;
+}
+legend
+{
+	font-size:22px;
+	font-weight:bold;
+	margin-bottom: 0px; 
+	width: 10%; 
+	border: 1px solid #ddd;
+	border-radius: 4px; 
+	padding: 10px 5px 8px 16px; 
+}
+.divchkbox{
+	float: right;
+	margin-top: -24px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10px 6px 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (min-width: 300px){
+	legend{
+		width: 126px;
+		font-size: 20px;
+	}
+}
